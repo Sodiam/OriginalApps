@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C36E6D9C29C833A200A9759D /* SodiamTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6D9B29C833A200A9759D /* SodiamTimerApp.swift */; };
+		C36E6D9E29C833A200A9759D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6D9D29C833A200A9759D /* ContentView.swift */; };
+		C36E6DA029C833A300A9759D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36E6D9F29C833A300A9759D /* Assets.xcassets */; };
+		C36E6DA329C833A300A9759D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36E6DA229C833A300A9759D /* Preview Assets.xcassets */; };
+		C36E6DAD29C833A400A9759D /* SodiamTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6DAC29C833A400A9759D /* SodiamTimerTests.swift */; };
+		C36E6DB729C833A400A9759D /* SodiamTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6DB629C833A400A9759D /* SodiamTimerUITests.swift */; };
+		C36E6DB929C833A400A9759D /* SodiamTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6DB829C833A400A9759D /* SodiamTimerUITestsLaunchTests.swift */; };
+		C36E6DC829C83B4500A9759D /* ElapsedTimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6DC729C83B4500A9759D /* ElapsedTimeFormatter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C36E6DA929C833A400A9759D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36E6D9029C833A200A9759D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36E6D9729C833A200A9759D;
+			remoteInfo = SodiamTimer;
+		};
+		C36E6DB329C833A400A9759D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36E6D9029C833A200A9759D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36E6D9729C833A200A9759D;
+			remoteInfo = SodiamTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C36E6D9829C833A200A9759D /* SodiamTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SodiamTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36E6D9B29C833A200A9759D /* SodiamTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodiamTimerApp.swift; sourceTree = "<group>"; };
+		C36E6D9D29C833A200A9759D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C36E6D9F29C833A300A9759D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36E6DA229C833A300A9759D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C36E6DA829C833A400A9759D /* SodiamTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SodiamTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36E6DAC29C833A400A9759D /* SodiamTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodiamTimerTests.swift; sourceTree = "<group>"; };
+		C36E6DB229C833A400A9759D /* SodiamTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SodiamTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36E6DB629C833A400A9759D /* SodiamTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodiamTimerUITests.swift; sourceTree = "<group>"; };
+		C36E6DB829C833A400A9759D /* SodiamTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodiamTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C36E6DC729C83B4500A9759D /* ElapsedTimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeFormatter.swift; sourceTree = "<group>"; };
+		C36E6DC929C9C93D00A9759D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36E6D9529C833A200A9759D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E6DA529C833A400A9759D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E6DAF29C833A400A9759D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C36E6D8F29C833A200A9759D = {
+			isa = PBXGroup;
+			children = (
+				C36E6D9A29C833A200A9759D /* SodiamTimer */,
+				C36E6DAB29C833A400A9759D /* SodiamTimerTests */,
+				C36E6DB529C833A400A9759D /* SodiamTimerUITests */,
+				C36E6D9929C833A200A9759D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C36E6D9929C833A200A9759D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36E6D9829C833A200A9759D /* SodiamTimer.app */,
+				C36E6DA829C833A400A9759D /* SodiamTimerTests.xctest */,
+				C36E6DB229C833A400A9759D /* SodiamTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36E6D9A29C833A200A9759D /* SodiamTimer */ = {
+			isa = PBXGroup;
+			children = (
+				C36E6DC929C9C93D00A9759D /* Info.plist */,
+				C36E6D9B29C833A200A9759D /* SodiamTimerApp.swift */,
+				C36E6D9D29C833A200A9759D /* ContentView.swift */,
+				C36E6DC729C83B4500A9759D /* ElapsedTimeFormatter.swift */,
+				C36E6D9F29C833A300A9759D /* Assets.xcassets */,
+				C36E6DA129C833A300A9759D /* Preview Content */,
+			);
+			path = SodiamTimer;
+			sourceTree = "<group>";
+		};
+		C36E6DA129C833A300A9759D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C36E6DA229C833A300A9759D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C36E6DAB29C833A400A9759D /* SodiamTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C36E6DAC29C833A400A9759D /* SodiamTimerTests.swift */,
+			);
+			path = SodiamTimerTests;
+			sourceTree = "<group>";
+		};
+		C36E6DB529C833A400A9759D /* SodiamTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C36E6DB629C833A400A9759D /* SodiamTimerUITests.swift */,
+				C36E6DB829C833A400A9759D /* SodiamTimerUITestsLaunchTests.swift */,
+			);
+			path = SodiamTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36E6D9729C833A200A9759D /* SodiamTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36E6DBC29C833A400A9759D /* Build configuration list for PBXNativeTarget "SodiamTimer" */;
+			buildPhases = (
+				C36E6D9429C833A200A9759D /* Sources */,
+				C36E6D9529C833A200A9759D /* Frameworks */,
+				C36E6D9629C833A200A9759D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SodiamTimer;
+			productName = SodiamTimer;
+			productReference = C36E6D9829C833A200A9759D /* SodiamTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C36E6DA729C833A400A9759D /* SodiamTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36E6DBF29C833A400A9759D /* Build configuration list for PBXNativeTarget "SodiamTimerTests" */;
+			buildPhases = (
+				C36E6DA429C833A400A9759D /* Sources */,
+				C36E6DA529C833A400A9759D /* Frameworks */,
+				C36E6DA629C833A400A9759D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36E6DAA29C833A400A9759D /* PBXTargetDependency */,
+			);
+			name = SodiamTimerTests;
+			productName = SodiamTimerTests;
+			productReference = C36E6DA829C833A400A9759D /* SodiamTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C36E6DB129C833A400A9759D /* SodiamTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36E6DC229C833A400A9759D /* Build configuration list for PBXNativeTarget "SodiamTimerUITests" */;
+			buildPhases = (
+				C36E6DAE29C833A400A9759D /* Sources */,
+				C36E6DAF29C833A400A9759D /* Frameworks */,
+				C36E6DB029C833A400A9759D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36E6DB429C833A400A9759D /* PBXTargetDependency */,
+			);
+			name = SodiamTimerUITests;
+			productName = SodiamTimerUITests;
+			productReference = C36E6DB229C833A400A9759D /* SodiamTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36E6D9029C833A200A9759D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C36E6D9729C833A200A9759D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C36E6DA729C833A400A9759D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C36E6D9729C833A200A9759D;
+					};
+					C36E6DB129C833A400A9759D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C36E6D9729C833A200A9759D;
+					};
+				};
+			};
+			buildConfigurationList = C36E6D9329C833A200A9759D /* Build configuration list for PBXProject "SodiamTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C36E6D8F29C833A200A9759D;
+			productRefGroup = C36E6D9929C833A200A9759D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36E6D9729C833A200A9759D /* SodiamTimer */,
+				C36E6DA729C833A400A9759D /* SodiamTimerTests */,
+				C36E6DB129C833A400A9759D /* SodiamTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36E6D9629C833A200A9759D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36E6DA329C833A300A9759D /* Preview Assets.xcassets in Resources */,
+				C36E6DA029C833A300A9759D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E6DA629C833A400A9759D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E6DB029C833A400A9759D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36E6D9429C833A200A9759D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36E6D9E29C833A200A9759D /* ContentView.swift in Sources */,
+				C36E6DC829C83B4500A9759D /* ElapsedTimeFormatter.swift in Sources */,
+				C36E6D9C29C833A200A9759D /* SodiamTimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E6DA429C833A400A9759D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36E6DAD29C833A400A9759D /* SodiamTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E6DAE29C833A400A9759D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36E6DB729C833A400A9759D /* SodiamTimerUITests.swift in Sources */,
+				C36E6DB929C833A400A9759D /* SodiamTimerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C36E6DAA29C833A400A9759D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36E6D9729C833A200A9759D /* SodiamTimer */;
+			targetProxy = C36E6DA929C833A400A9759D /* PBXContainerItemProxy */;
+		};
+		C36E6DB429C833A400A9759D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36E6D9729C833A200A9759D /* SodiamTimer */;
+			targetProxy = C36E6DB329C833A400A9759D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C36E6DBA29C833A400A9759D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C36E6DBB29C833A400A9759D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36E6DBD29C833A400A9759D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SodiamTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D2RD3847B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SodiamTimer/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sodiam.SodiamTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C36E6DBE29C833A400A9759D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SodiamTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D2RD3847B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SodiamTimer/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sodiam.SodiamTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C36E6DC029C833A400A9759D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D2RD3847B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sodiam.SodiamTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SodiamTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SodiamTimer";
+			};
+			name = Debug;
+		};
+		C36E6DC129C833A400A9759D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D2RD3847B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sodiam.SodiamTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SodiamTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SodiamTimer";
+			};
+			name = Release;
+		};
+		C36E6DC329C833A400A9759D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D2RD3847B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sodiam.SodiamTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SodiamTimer;
+			};
+			name = Debug;
+		};
+		C36E6DC429C833A400A9759D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D2RD3847B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sodiam.SodiamTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SodiamTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36E6D9329C833A200A9759D /* Build configuration list for PBXProject "SodiamTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36E6DBA29C833A400A9759D /* Debug */,
+				C36E6DBB29C833A400A9759D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36E6DBC29C833A400A9759D /* Build configuration list for PBXNativeTarget "SodiamTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36E6DBD29C833A400A9759D /* Debug */,
+				C36E6DBE29C833A400A9759D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36E6DBF29C833A400A9759D /* Build configuration list for PBXNativeTarget "SodiamTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36E6DC029C833A400A9759D /* Debug */,
+				C36E6DC129C833A400A9759D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36E6DC229C833A400A9759D /* Build configuration list for PBXNativeTarget "SodiamTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36E6DC329C833A400A9759D /* Debug */,
+				C36E6DC429C833A400A9759D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36E6D9029C833A200A9759D /* Project object */;
+}

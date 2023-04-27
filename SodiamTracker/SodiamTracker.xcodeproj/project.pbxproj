@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C350F3C526AAEF5F009125A7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C350F3C426AAEF5F009125A7 /* CoreLocation.framework */; };
+		C35B26EA268DC0E400108BF9 /* SodiamTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B26E9268DC0E400108BF9 /* SodiamTrackerApp.swift */; };
+		C35B26EC268DC0E400108BF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B26EB268DC0E400108BF9 /* ContentView.swift */; };
+		C35B26EE268DC0E500108BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35B26ED268DC0E500108BF9 /* Assets.xcassets */; };
+		C35B26F1268DC0E500108BF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35B26F0268DC0E500108BF9 /* Preview Assets.xcassets */; };
+		C35B26FC268DC0E500108BF9 /* SodiamTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B26FB268DC0E500108BF9 /* SodiamTrackerTests.swift */; };
+		C35B2707268DC0E500108BF9 /* SodiamTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B2706268DC0E500108BF9 /* SodiamTrackerUITests.swift */; };
+		C35B2715268DC1D900108BF9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B2714268DC1D900108BF9 /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C35B26F8268DC0E500108BF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35B26DE268DC0E400108BF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35B26E5268DC0E400108BF9;
+			remoteInfo = SodiamTracker;
+		};
+		C35B2703268DC0E500108BF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35B26DE268DC0E400108BF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35B26E5268DC0E400108BF9;
+			remoteInfo = SodiamTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C350F3C426AAEF5F009125A7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C35B26E6268DC0E400108BF9 /* SodiamTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SodiamTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35B26E9268DC0E400108BF9 /* SodiamTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodiamTrackerApp.swift; sourceTree = "<group>"; };
+		C35B26EB268DC0E400108BF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C35B26ED268DC0E500108BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C35B26F0268DC0E500108BF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C35B26F2268DC0E500108BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35B26F7268DC0E500108BF9 /* SodiamTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SodiamTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35B26FB268DC0E500108BF9 /* SodiamTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodiamTrackerTests.swift; sourceTree = "<group>"; };
+		C35B26FD268DC0E500108BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35B2702268DC0E500108BF9 /* SodiamTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SodiamTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35B2706268DC0E500108BF9 /* SodiamTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodiamTrackerUITests.swift; sourceTree = "<group>"; };
+		C35B2708268DC0E500108BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35B2714268DC1D900108BF9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C35B26E3268DC0E400108BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C350F3C526AAEF5F009125A7 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35B26F4268DC0E500108BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35B26FF268DC0E500108BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C350F3C326AAEF5F009125A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C350F3C426AAEF5F009125A7 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C35B26DD268DC0E400108BF9 = {
+			isa = PBXGroup;
+			children = (
+				C35B26E8268DC0E400108BF9 /* SodiamTracker */,
+				C35B26FA268DC0E500108BF9 /* SodiamTrackerTests */,
+				C35B2705268DC0E500108BF9 /* SodiamTrackerUITests */,
+				C35B26E7268DC0E400108BF9 /* Products */,
+				C350F3C326AAEF5F009125A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C35B26E7268DC0E400108BF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35B26E6268DC0E400108BF9 /* SodiamTracker.app */,
+				C35B26F7268DC0E500108BF9 /* SodiamTrackerTests.xctest */,
+				C35B2702268DC0E500108BF9 /* SodiamTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35B26E8268DC0E400108BF9 /* SodiamTracker */ = {
+			isa = PBXGroup;
+			children = (
+				C35B26E9268DC0E400108BF9 /* SodiamTrackerApp.swift */,
+				C35B26EB268DC0E400108BF9 /* ContentView.swift */,
+				C35B2714268DC1D900108BF9 /* LocationManager.swift */,
+				C35B26ED268DC0E500108BF9 /* Assets.xcassets */,
+				C35B26F2268DC0E500108BF9 /* Info.plist */,
+				C35B26EF268DC0E500108BF9 /* Preview Content */,
+			);
+			path = SodiamTracker;
+			sourceTree = "<group>";
+		};
+		C35B26EF268DC0E500108BF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C35B26F0268DC0E500108BF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C35B26FA268DC0E500108BF9 /* SodiamTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C35B26FB268DC0E500108BF9 /* SodiamTrackerTests.swift */,
+				C35B26FD268DC0E500108BF9 /* Info.plist */,
+			);
+			path = SodiamTrackerTests;
+			sourceTree = "<group>";
+		};
+		C35B2705268DC0E500108BF9 /* SodiamTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C35B2706268DC0E500108BF9 /* SodiamTrackerUITests.swift */,
+				C35B2708268DC0E500108BF9 /* Info.plist */,
+			);
+			path = SodiamTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C35B26E5268DC0E400108BF9 /* SodiamTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35B270B268DC0E500108BF9 /* Build configuration list for PBXNativeTarget "SodiamTracker" */;
+			buildPhases = (
+				C35B26E2268DC0E400108BF9 /* Sources */,
+				C35B26E3268DC0E400108BF9 /* Frameworks */,
+				C35B26E4268DC0E400108BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SodiamTracker;
+			productName = SodiamTracker;
+			productReference = C35B26E6268DC0E400108BF9 /* SodiamTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C35B26F6268DC0E500108BF9 /* SodiamTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35B270E268DC0E500108BF9 /* Build configuration list for PBXNativeTarget "SodiamTrackerTests" */;
+			buildPhases = (
+				C35B26F3268DC0E500108BF9 /* Sources */,
+				C35B26F4268DC0E500108BF9 /* Frameworks */,
+				C35B26F5268DC0E500108BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35B26F9268DC0E500108BF9 /* PBXTargetDependency */,
+			);
+			name = SodiamTrackerTests;
+			productName = SodiamTrackerTests;
+			productReference = C35B26F7268DC0E500108BF9 /* SodiamTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C35B2701268DC0E500108BF9 /* SodiamTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35B2711268DC0E500108BF9 /* Build configuration list for PBXNativeTarget "SodiamTrackerUITests" */;
+			buildPhases = (
+				C35B26FE268DC0E500108BF9 /* Sources */,
+				C35B26FF268DC0E500108BF9 /* Frameworks */,
+				C35B2700268DC0E500108BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35B2704268DC0E500108BF9 /* PBXTargetDependency */,
+			);
+			name = SodiamTrackerUITests;
+			productName = SodiamTrackerUITests;
+			productReference = C35B2702268DC0E500108BF9 /* SodiamTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C35B26DE268DC0E400108BF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C35B26E5268DC0E400108BF9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C35B26F6268DC0E500108BF9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C35B26E5268DC0E400108BF9;
+					};
+					C35B2701268DC0E500108BF9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C35B26E5268DC0E400108BF9;
+					};
+				};
+			};
+			buildConfigurationList = C35B26E1268DC0E400108BF9 /* Build configuration list for PBXProject "SodiamTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C35B26DD268DC0E400108BF9;
+			productRefGroup = C35B26E7268DC0E400108BF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35B26E5268DC0E400108BF9 /* SodiamTracker */,
+				C35B26F6268DC0E500108BF9 /* SodiamTrackerTests */,
+				C35B2701268DC0E500108BF9 /* SodiamTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C35B26E4268DC0E400108BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35B26F1268DC0E500108BF9 /* Preview Assets.xcassets in Resources */,
+				C35B26EE268DC0E500108BF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35B26F5268DC0E500108BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35B2700268DC0E500108BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C35B26E2268DC0E400108BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35B26EC268DC0E400108BF9 /* ContentView.swift in Sources */,
+				C35B26EA268DC0E400108BF9 /* SodiamTrackerApp.swift in Sources */,
+				C35B2715268DC1D900108BF9 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35B26F3268DC0E500108BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35B26FC268DC0E500108BF9 /* SodiamTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35B26FE268DC0E500108BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35B2707268DC0E500108BF9 /* SodiamTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C35B26F9268DC0E500108BF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35B26E5268DC0E400108BF9 /* SodiamTracker */;
+			targetProxy = C35B26F8268DC0E500108BF9 /* PBXContainerItemProxy */;
+		};
+		C35B2704268DC0E500108BF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35B26E5268DC0E400108BF9 /* SodiamTracker */;
+			targetProxy = C35B2703268DC0E500108BF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C35B2709268DC0E500108BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C35B270A268DC0E500108BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C35B270C268DC0E500108BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SodiamTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D2RD3847B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SodiamTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sodiam.SodiamTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C35B270D268DC0E500108BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SodiamTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D2RD3847B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SodiamTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sodiam.SodiamTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C35B270F268DC0E500108BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D2RD3847B;
+				INFOPLIST_FILE = SodiamTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sodiam.SodiamTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SodiamTracker.app/SodiamTracker";
+			};
+			name = Debug;
+		};
+		C35B2710268DC0E500108BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D2RD3847B;
+				INFOPLIST_FILE = SodiamTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sodiam.SodiamTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SodiamTracker.app/SodiamTracker";
+			};
+			name = Release;
+		};
+		C35B2712268DC0E500108BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D2RD3847B;
+				INFOPLIST_FILE = SodiamTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sodiam.SodiamTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SodiamTracker;
+			};
+			name = Debug;
+		};
+		C35B2713268DC0E500108BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D2RD3847B;
+				INFOPLIST_FILE = SodiamTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sodiam.SodiamTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SodiamTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C35B26E1268DC0E400108BF9 /* Build configuration list for PBXProject "SodiamTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35B2709268DC0E500108BF9 /* Debug */,
+				C35B270A268DC0E500108BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35B270B268DC0E500108BF9 /* Build configuration list for PBXNativeTarget "SodiamTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35B270C268DC0E500108BF9 /* Debug */,
+				C35B270D268DC0E500108BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35B270E268DC0E500108BF9 /* Build configuration list for PBXNativeTarget "SodiamTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35B270F268DC0E500108BF9 /* Debug */,
+				C35B2710268DC0E500108BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35B2711268DC0E500108BF9 /* Build configuration list for PBXNativeTarget "SodiamTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35B2712268DC0E500108BF9 /* Debug */,
+				C35B2713268DC0E500108BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C35B26DE268DC0E400108BF9 /* Project object */;
+}
