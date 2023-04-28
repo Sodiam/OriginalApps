@@ -14,6 +14,7 @@ struct ContentView: View {
     private let formatter = ElapsedTimeFormatter()
     private let timer = Timer.publish(every: 0.01, on: .main, in: .common).autoconnect()
     @State var is_timerRunning: Bool = false
+    @State var stopped: Bool = false
     @State var pushed: Bool = false
     @State var in_count: Int = 0
     @State var section_count: Int = 0
@@ -29,7 +30,7 @@ struct ContentView: View {
                 if self.is_timerRunning {
                     self.timeInterval += 0.01
                 }
-                if self.is_timerRunning && self.timeInterval >= 600 {
+                if self.is_timerRunning && self.stopped {
                     self.stop_measuring()
                 }
             }.padding(.bottom, 30)
@@ -40,27 +41,24 @@ struct ContentView: View {
             }}) {
                 Text("IN").font(.largeTitle).frame(width: 280, height: 60, alignment: .center).foregroundColor(.white).background(Color.blue).cornerRadius(15, antialiased: true)
                     }.padding(.all, 15)
-            Button(action: {self.pushed = true}) {
+            Button(action: {if !self.is_timerRunning {
+                self.pushed = true
+            } else {
+                self.stopped = true
+            }
+            }) {
                 Text(button_text).font(.largeTitle).frame(width: 280, height: 60, alignment: .center).foregroundColor(.white).background(button_color).cornerRadius(15, antialiased: true)
             }.alert(isPresented: $pushed) {
-                var al: Alert
-                if !self.is_timerRunning {
-                    al = Alert(title: Text("Start 1-Minute count."), message: Text("Press OK button to start 1-minute countdown."), primaryButton: .default(Text("OK"), action: {
-                        self.dateFormatter.dateFormat =
-                        DateFormatter.dateFormat(fromTemplate: "yyyyMMddHHmmss", options: 0, locale: Locale(identifier: "en_JP"))
-                        peds.removeAll()
-                        self.filename = createFilename()
-                        self.in_count = 0
-                        self.button_text = "Press here to stop"
-                        self.button_color = Color.gray
-                        self.is_timerRunning = true
-                    }), secondaryButton: .cancel(Text("Cancel")))
-                } else {
-                    al = Alert(title: Text("Stop"), message: Text("Do you want to stop countdown?"), primaryButton: .destructive(Text("Stop"), action: {
-                        stop_measuring()
-                    }), secondaryButton: .cancel(Text("Cancel")))
-                }
-                return al
+                return Alert(title: Text("Start count."), message: Text("Press OK button to start count."), primaryButton: .default(Text("OK"), action: {
+                    self.dateFormatter.dateFormat =
+                    DateFormatter.dateFormat(fromTemplate: "yyyyMMddHHmmss", options: 0, locale: Locale(identifier: "en_JP"))
+                    peds.removeAll()
+                    self.filename = createFilename()
+                    self.in_count = 0
+                    self.button_text = "Press here to stop"
+                    self.button_color = Color.gray
+                    self.is_timerRunning = true
+                }), secondaryButton: .cancel(Text("Cancel")))
             }.padding(.top, 50)
             Button(action: {
                 if !self.is_timerRunning {
@@ -115,6 +113,7 @@ struct ContentView: View {
     
     func stop_measuring() {
         self.timeInterval = 0
+        self.stopped = false
         self.button_text = "Press to start!"
         self.button_color = Color.indigo
         self.is_timerRunning = false
